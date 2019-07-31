@@ -10,7 +10,7 @@ public class Merge1 {
 		int a=10 , b=20 , c,d;
 		
 	System.out.println(c=a+b);	
-	
+	System.out.println("Addition");
 	
 	}
 
