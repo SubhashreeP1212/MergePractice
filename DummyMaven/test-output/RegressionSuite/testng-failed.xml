@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="CrossBrowserTest.TC_002">
+        <methods>
+          <include name="google" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- CrossBrowserTest.TC_002 -->
+      <class name="CrossBrowserTest.TC_001">
+        <methods>
+          <include name="google" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- CrossBrowserTest.TC_001 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test thread-count="5" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="CrossBrowserTest.TC_002">
+        <methods>
+          <include name="google" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- CrossBrowserTest.TC_002 -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

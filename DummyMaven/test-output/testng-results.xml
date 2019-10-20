@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[loggedin]]>
+    </line>
+    <line>
+      <![CDATA[initialising]]>
+    </line>
+    <line>
+      <![CDATA[Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[amazon url]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2019-10-20T00:19:11 IST" name="Default suite" finished-at="2019-10-20T00:19:19 IST" duration-ms="7870">
+    <groups>
+    </groups>
+    <test started-at="2019-10-20T00:19:11 IST" name="Default test" finished-at="2019-10-20T00:19:19 IST" duration-ms="7870">
+      <class name="Listener.TC_001">
+        <test-method signature="login2222()[pri:0, instance:Listener.TC_001@6aaceffd]" started-at="2019-10-20T00:19:11 IST" name="login2222" finished-at="2019-10-20T00:19:11 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[loggedin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login2222 -->
+        <test-method signature="urlcall()[pri:0, instance:Listener.TC_001@6aaceffd]" started-at="2019-10-20T00:19:11 IST" name="urlcall" finished-at="2019-10-20T00:19:19 IST" duration-ms="7818" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[initialising]]>
+            </line>
+            <line>
+              <![CDATA[Launching browser]]>
+            </line>
+            <line>
+              <![CDATA[amazon url]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- urlcall -->
+      </class> <!-- Listener.TC_001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
