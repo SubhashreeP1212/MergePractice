@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+
+  <test name="Test">
+  
+  <groups>
+  
+  <run>
+  
+  <include  name="Regression"   />
+  </run>
+  </groups>
+  
+  
+  
+    <classes>
+      <class name="groupskipdependencyprioritytest.TC_001"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
